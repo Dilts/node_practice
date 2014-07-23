@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Form submit:
+
+	form(method='post', action='/formSubmit')
+		input(type="text", name='username' placeholder="Username")
+		input(type="text", name='email' placeholder='Email')
+		input(type='submit')
