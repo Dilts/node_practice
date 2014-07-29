@@ -10,7 +10,7 @@ var controller = {
 	},
 
 	nextPage: function(req, res) {
-		console.log(req.params)
+		// console.log(req.params)
 			for (var i = 0; i < locations.length; i++) {
 				if (req.params.name === locations[i].location) {
 					res.render('index', {local: locations[i]})

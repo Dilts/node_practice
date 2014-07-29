@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "moment": "~2.7.0"
+  },
+  "name": "Practice",
+  "version": "0.0.0",
+  "description": "this is my first npm file",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1 Hello Boulder!
+		form(method='post', action='/formSubmit')
+		input(type="text", name='name' placeholder="Enter your name")
+		input(type="url", name='url' placeholder='Enter the URL of your video')
+		input(type="text", name='title' placeholder='Title of your video')
+		input(type="text", name='desc' placeholder='Description of your video')
+		input(type='submit')

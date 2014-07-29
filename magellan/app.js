@@ -12,5 +12,5 @@ app.get('/:name', controller.nextPage);
 
 
 var server = app.listen(3463, function() {
-	console.log('Express server listening on port ' + server.address().port);
+	console.log('Express server listening on port ' + server.addrss(e).port);
 });
